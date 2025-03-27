@@ -1,0 +1,9 @@
+[project]
+name = "mcp-weather"
+version = "0.1.0"
+description = "一個給 AI Agent 使用的 MCP Server 範例，用來取得美國各州的天氣預報與警示資訊"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.5.0",
+]
